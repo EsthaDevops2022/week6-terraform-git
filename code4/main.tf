@@ -11,6 +11,7 @@ resource "aws_iam_group" "cloud_engineer" {
 
 }
 
+
 resource "aws_iam_user" "user" {
   name = "u5bt2023"
 

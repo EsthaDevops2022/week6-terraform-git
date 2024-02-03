@@ -7,3 +7,13 @@ resource "aws_iam_user" "lb" {
   name = "Estha2050"
 
 }
+
+resource "aws_iam_group" "ansGroup" {
+  name = "ansiblegroup"
+
+}
+
+resource "aws_iam_user" "ans" {
+  name = "ansible"
+}
+
